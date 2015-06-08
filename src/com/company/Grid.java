@@ -5,11 +5,10 @@ import java.util.Map;
 
 public class Grid {
 
-    LinkedList<Map.Entry<Cell,Cell>> grid=new LinkedList<>();
+    LinkedList<Map.Entry<Cell, Cell>> grid = new LinkedList<>();
 
-    public Grid() {
-
-
+    public Grid(LinkedList grid) {
+        this.grid = grid;
     }
 
 }
